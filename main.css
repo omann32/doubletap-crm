@@ -1,0 +1,34 @@
+#circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  padding-top: 20px;
+}
+
+.dashed {
+  list-style-type: none;
+}
+.dashed > li::before {
+  content: "-";
+}
+
+footer {
+  margin-top: auto;
+}
+
+#lmbutton {
+  width: 400px;
+}
+
+.one {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.dollar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
