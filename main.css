@@ -118,8 +118,8 @@ body {
 }
 
 .circle {
-  height: 100px;
-  width: 100px;
+  height: 130px;
+  width: 130px;
   background-color: rgb(207, 211, 232);
   border-radius: 50%;
   display: inline-block;

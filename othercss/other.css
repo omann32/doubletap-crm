@@ -1,0 +1,130 @@
+body {
+  font-family: sans-serif;
+}
+
+.backimg {
+  background-image: url(/images/Group\ 15.png);
+  background-color: blue;
+}
+
+.backg {
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topmargin {
+  margin-top: 100px;
+}
+
+.toptext {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid white;
+  padding: 20px;
+  width: 150px;
+  height: 70px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#uppertext {
+  margin-top: 5%;
+  font-size: x-large;
+  text-align: center;
+}
+
+#group15 {
+  margin-left: 25%;
+}
+
+.left-half {
+  background-color: blue;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+  color: white;
+  height: 875px;
+  border-bottom-right-radius: 100%;
+}
+
+.right-half {
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}
+
+#rcorners3 {
+  border-radius: 25px;
+  border: 2px solid white;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  font-size: x-large;
+  text-align: center;
+}
+
+#accounttext {
+  color: white;
+  font-size: small;
+  text-align: center;
+}
+
+.paddingtime {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.center {
+  margin: auto;
+  width: 15%;
+  margin-bottom: 30px;
+}
+.border {
+  border-width: 100px;
+  border-style: dotted;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  border-radius: 25px;
+}
+
+.contain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: ". .";
+}
+
+.margins {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bottom {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  padding: 15px;
+  border: 2px solid gray;
+}
+
+#signup {
+  text-align: center;
+  font-size: medium;
+  margin-bottom: 30px;
+}
